@@ -13,5 +13,9 @@ void eksekusiCekFibonacci();
 void cetakGaris(char simbol, int panjang);
 
 int main() {
+    while (true) {
+        tampilkanMenu();
+        cin >> pilihan;
+    }
     return 0;
 }
