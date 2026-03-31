@@ -16,6 +16,9 @@ int main() {
     while (true) {
         tampilkanMenu();
         cin >> pilihan;
+        switch (pilihan) {
+        }
+        cetakGaris('-', 42);
     }
     return 0;
 }
