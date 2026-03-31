@@ -107,4 +107,9 @@ void eksekusiCekFibonacci() {
     cetakGaris('+', 42);
     cout << "  |     HASIL CEK BILANGAN FIBONACCI      |\n";
     cetakGaris('+', 42);
+    if (isFibonacci(angka)) {
+        cout << "  | >> " << angka << " TERMASUK deret Fibonacci.\n";
+    } else {
+        cout << "  | >> " << angka << " TIDAK TERMASUK deret Fibonacci.\n";
+    }
 }
