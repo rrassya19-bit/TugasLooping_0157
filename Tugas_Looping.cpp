@@ -90,3 +90,9 @@ bool isFibonacci(int n) {
     }
     return false;
 }
+
+void eksekusiCekPrima() {
+    cetakGaris('+', 42);
+    cout << "  |       HASIL CEK BILANGAN PRIMA       |\n";
+    cetakGaris('+', 42);
+}
