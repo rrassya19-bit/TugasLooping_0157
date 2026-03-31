@@ -102,3 +102,9 @@ void eksekusiCekPrima() {
     }
     cetakGaris('+', 42);
 }
+
+void eksekusiCekFibonacci() {
+    cetakGaris('+', 42);
+    cout << "  |     HASIL CEK BILANGAN FIBONACCI      |\n";
+    cetakGaris('+', 42);
+}
