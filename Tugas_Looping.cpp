@@ -112,4 +112,5 @@ void eksekusiCekFibonacci() {
     } else {
         cout << "  | >> " << angka << " TIDAK TERMASUK deret Fibonacci.\n";
     }
+    cetakGaris('+', 42); 
 }
