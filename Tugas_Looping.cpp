@@ -17,6 +17,11 @@ int main() {
         tampilkanMenu();
         cin >> pilihan;
         switch (pilihan) {
+            case 1:
+                cout << "\n  --- CEK BILANGAN PRIMA ---\n";
+                inputAngka();
+                eksekusiCekPrima();
+                break;
         }
         cetakGaris('-', 42);
     }
