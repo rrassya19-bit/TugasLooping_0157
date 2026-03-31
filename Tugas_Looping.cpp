@@ -30,6 +30,9 @@ int main() {
             case 0:
                 cout << "\n  Terima kasih! Program selesai.\n\n";
                 return 0;
+            default:
+                cout << "\n  [!] Pilihan tidak valid. Silakan masukkan 0, 1, atau 2.\n";
+                break;
         }
         cetakGaris('-', 42);
     }
