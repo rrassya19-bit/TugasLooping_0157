@@ -38,3 +38,13 @@ int main() {
     }
     return 0;
 }
+
+void cetakGaris(char simbol, int panjang) {
+    cout << "\n  ";
+    int i = 0;
+    while (i < panjang) {
+        cout << simbol;
+        i++;
+    }
+    cout << "\n";
+}
