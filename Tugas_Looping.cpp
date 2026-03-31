@@ -27,6 +27,9 @@ int main() {
                 inputAngka();
                 eksekusiCekFibonacci();
                 break;
+            case 0:
+                cout << "\n  Terima kasih! Program selesai.\n\n";
+                return 0;
         }
         cetakGaris('-', 42);
     }
