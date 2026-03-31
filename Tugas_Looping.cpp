@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
 
+// --- Variabel Global ---
 int angka;
 int pilihan;
 
+// --- Prototipe Fungsi & Prosedur ---
 void inputAngka();
 void tampilkanMenu();
 bool isPrima(int n);
@@ -12,6 +14,7 @@ void eksekusiCekPrima();
 void eksekusiCekFibonacci();
 void cetakGaris(char simbol, int panjang);
 
+// --- Main Function ---
 int main() {
     while (true) {
         tampilkanMenu();
@@ -38,6 +41,8 @@ int main() {
     }
     return 0;
 }
+
+// --- Implementasi Fungsi & Prosedur ---
 
 void cetakGaris(char simbol, int panjang) {
     cout << "\n  ";
@@ -112,5 +117,5 @@ void eksekusiCekFibonacci() {
     } else {
         cout << "  | >> " << angka << " TIDAK TERMASUK deret Fibonacci.\n";
     }
-    cetakGaris('+', 42); 
+    cetakGaris('+', 42);
 }
