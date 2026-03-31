@@ -22,6 +22,11 @@ int main() {
                 inputAngka();
                 eksekusiCekPrima();
                 break;
+            case 2:
+                cout << "\n  --- CEK BILANGAN FIBONACCI ---\n";
+                inputAngka();
+                eksekusiCekFibonacci();
+                break;
         }
         cetakGaris('-', 42);
     }
