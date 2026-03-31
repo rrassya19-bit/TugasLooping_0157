@@ -48,3 +48,14 @@ void cetakGaris(char simbol, int panjang) {
     }
     cout << "\n";
 }
+
+void tampilkanMenu() {
+    cetakGaris('=', 42);
+    cout << "       PROGRAM CEK PRIMA & FIBONACCI\n";
+    cetakGaris('=', 42);
+    cout << "  [1] Cek Bilangan Prima\n";
+    cout << "  [2] Cek Bilangan Fibonacci\n";
+    cout << "  [0] Keluar\n";
+    cetakGaris('-', 42);
+    cout << "  Pilihan Anda: ";
+}
