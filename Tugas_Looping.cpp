@@ -59,3 +59,8 @@ void tampilkanMenu() {
     cetakGaris('-', 42);
     cout << "  Pilihan Anda: ";
 }
+
+void inputAngka() {
+    cout << "  Masukkan bilangan yang ingin dicek: ";
+    cin >> angka;
+}
