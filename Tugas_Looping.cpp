@@ -95,4 +95,10 @@ void eksekusiCekPrima() {
     cetakGaris('+', 42);
     cout << "  |       HASIL CEK BILANGAN PRIMA       |\n";
     cetakGaris('+', 42);
+    if (isPrima(angka)) {
+        cout << "  | >> " << angka << " ADALAH bilangan prima.\n";
+    } else {
+        cout << "  | >> " << angka << " BUKAN bilangan prima.\n";
+    }
+    cetakGaris('+', 42);
 }
