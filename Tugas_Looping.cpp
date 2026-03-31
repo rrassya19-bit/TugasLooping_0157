@@ -64,3 +64,9 @@ void inputAngka() {
     cout << "  Masukkan bilangan yang ingin dicek: ";
     cin >> angka;
 }
+
+bool isPrima(int n) {
+    if (n <= 1) return false;
+    if (n == 2) return true;
+    return true;
+}
